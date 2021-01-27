@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Thêm sinh viên";
+}
+
+@model demoCatalogue.Models.SinhVien
+
+<div class="container">
+    <h2>Thêm sv</h2>
+    <form asp-action="CreateSV">
+        <div class="form-group">
+            <label asp-for="MaSinhVien" >Mã sinh viên:</label>
+            <input type="text" class="form-control" asp-for="MaSinhVien" placeholder="Nhập mã sinh viên" name="MaSinhVien"/>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TenSinhVien">Tên:</label>
+            <input type="text" class="form-control" asp-for="TenSinhVien" placeholder="Nhập tên sinh viên" name="TenSinhVien">
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TuoiSinhVien">Tuổi:</label>
+            <input type="text" class="form-control" asp-for="TuoiSinhVien" placeholder="Nhập tuổi sinh viên" name="TuoiSinhVien">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Thêm</button>
+    </form>
+</div>

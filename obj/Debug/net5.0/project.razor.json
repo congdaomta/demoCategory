@@ -15623,6 +15623,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\demo\\demoCatalogue\\Views\\SinhVien\\CreateSV.cshtml",
+      "TargetPath": "Views\\SinhVien\\CreateSV.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\demo\\demoCatalogue\\Views\\SinhVien\\ListSinhVien.cshtml",
       "TargetPath": "Views\\SinhVien\\ListSinhVien.cshtml",
       "FileKind": "mvc"
